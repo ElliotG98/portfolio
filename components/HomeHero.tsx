@@ -1,4 +1,5 @@
 import styles from '@styles/home.module.css';
+import Link from 'next/link';
 
 const HomeHero = () => {
     return (
@@ -12,8 +13,9 @@ const HomeHero = () => {
                 <h2 className="text-lg prose text-gray-600 dark:text-gray-400">
                     Welcome to my portfolio. I’m a software engineer and In my
                     free time, I like developing{' '}
-                    <a href="/projects">side projects</a> and{' '}
-                    <a href="/blog">blogging</a> about them. Have a good read!
+                    <Link href="/projects">side projects</Link> and{' '}
+                    <Link href="/blog">blogging</Link> about them. Have a good
+                    read!
                 </h2>
             </div>
         </div>
