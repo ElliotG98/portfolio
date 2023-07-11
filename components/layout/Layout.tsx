@@ -2,7 +2,9 @@ import SectionContainer from '../SectionContainer';
 import Footer from './Footer';
 import Link from 'next/link';
 import { ReactNode } from 'react';
-import { metaData, headerNavLinks } from '@data/index';
+import metaData from '@data/metaData';
+import headerNavLinks from '@data/headerNavLinks';
+import MobileNav from './MobileNav';
 
 type LayoutProps = { children?: ReactNode };
 
@@ -32,6 +34,7 @@ const Layout = ({ children }: LayoutProps) => {
                                 </Link>
                             ))}
                         </div>
+                        <MobileNav />
                     </div>
                 </header>
                 <main className="mb-auto">{children}</main>

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { metaData } from '@data/index';
+import metaData from '@data/metaData';
 import SocialIcon from '@components/socialIcons';
 
 export default function Footer() {
