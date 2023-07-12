@@ -21,7 +21,8 @@ export default function Projects() {
                 </div>
                 <div className="container py-12">
                     <div className="-m-4 flex flex-wrap">
-                        {projectsData.map((d) => (
+                        <p>Coming Soon...</p>
+                        {/* {projectsData.map((d) => (
                             <Card
                                 key={d.title}
                                 title={d.title}
@@ -29,7 +30,7 @@ export default function Projects() {
                                 imgSrc={d.imgSrc}
                                 href={d.href}
                             />
-                        ))}
+                        ))} */}
                     </div>
                 </div>
             </div>
