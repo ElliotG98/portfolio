@@ -11,7 +11,7 @@ const HomeHero = () => {
                     Hi, I’m Elliot Glaze
                 </h1>
                 <h2 className="text-lg prose text-gray-600 dark:text-gray-400">
-                    Welcome to my portfolio. I’m a software engineer and In my
+                    Welcome to my portfolio. I’m a software engineer and in my
                     free time, I like developing{' '}
                     <Link href="/projects">side projects</Link> and{' '}
                     <Link href="/blog">blogging</Link> about them. Have a good
