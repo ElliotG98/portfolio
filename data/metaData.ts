@@ -6,6 +6,7 @@ const metaData = {
     email: 'elliotglaze98@gmail.com',
     github: 'https://github.com/ElliotG98',
     siteUrl: 'elliotglaze.com',
+    siteRepo: 'https://github.com/ElliotG98/Portfolio',
 };
 
 export default metaData;

@@ -24,7 +24,8 @@
             "@data/*": ["./data/*"],
             "@styles/*": ["./styles/*"],
             "@pages/*": ["./pages/*"],
-            "@public/*": ["./public/*"]
+            "@public/*": ["./public/*"],
+            "@utils/*": ["./utils/*"]
         }
     },
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
