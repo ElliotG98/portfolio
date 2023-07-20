@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Link from 'next/Link';
+import Link from 'next/link';
 import Tag from '@components/Tag';
 import Pagination from '@components/Pagination';
 import formatDate from '@utils/formatDate';
