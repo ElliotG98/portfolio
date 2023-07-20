@@ -9,9 +9,11 @@ export default function remarkImgToJsx() {
             // only visit p tags that contain an img element
             (node: any) =>
                 node.type === 'paragraph' &&
-                node.children.some((n) => n.type === 'image'),
+                node.children.some((n: any) => n.type === 'image'),
             (node) => {
-                const imageNode = node.children.find((n) => n.type === 'image');
+                const imageNode = node.children.find(
+                    (n: any) => n.type === 'image',
+                );
 
                 // only local files
                 if (fs.existsSync(`${process.cwd()}/public${imageNode.url}`)) {
